@@ -1,0 +1,82 @@
+/* body modification*/
+body{
+    background-color: #DE3C4B;
+  
+    padding: 2.5px;
+}
+
+/* Every div preceded by a div */
+div + div{
+    margin-top: 10px;
+}
+
+/* mainFrame class*/
+.mainFrame{
+    background-color: #292F36;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+/* header class*/
+.header{
+    text-align: center;
+    background-color: #2088cb;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+/* h1 modification*/
+h1 {
+    background-color: #DE3C4B;
+    color: white;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+/* card container class */
+
+/* card class */
+.card{
+    text-align: center;
+    background-color: #2088cb;
+
+    width: 50%;
+    float: inline-flex;
+
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+/* p modification */
+p{
+    background: #DE3C4B;
+    color: white;
+
+    font-size: larger;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
