@@ -5,11 +5,6 @@ body{
     padding: 2.5px;
 }
 
-/* div modification */
-div{
-    margin-top: 10px;
-}
-
 /* mainFrame class*/
 .mainFrame{
     background-color: #292F36;
@@ -20,6 +15,7 @@ div{
     border-radius: 10px;
 
     padding: 5px;
+
 }
 
 /* header class*/
@@ -33,6 +29,8 @@ div{
     border-radius: 10px;
 
     padding: 10px;
+
+    flex-grow: 1;
 }
 
 /* h1 modification*/
@@ -44,29 +42,6 @@ h1 {
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
-}
-
-/* row class */
-.row{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-/* card class */
-.card{
-    background-color: #2088cb;
-    text-align: center;
-
-    width: 100%; 
-
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 10px;
-
-    padding: 5px;
 }
 
 /* p modification */
@@ -82,5 +57,18 @@ p{
     border-radius: 10px;
 
     padding: 5px;
+}
+
+/* itemContainer class */
+.itemContainer{
+    display: flex;
+}
+
+/* item class */
+.item{
+    text-align: center;
+    
+    order: 0;
+    flex-grow: 1;
 }
 
