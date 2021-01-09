@@ -5,6 +5,11 @@ body{
     padding: 2.5px;
 }
 
+/* a modification */
+a, a:hover, a:active, a:visited {
+    color: white; 
+}
+
 /* mainFrame class*/
 .mainFrame{
     background-color: #292F36;
@@ -18,8 +23,8 @@ body{
 
 }
 
-/* header class*/
-.header{
+/* bluediv class*/
+.bluediv{
     text-align: center;
     background-color: #2088cb;
 
@@ -35,6 +40,17 @@ body{
 
 /* h1 modification*/
 h1 {
+    background-color: #DE3C4B;
+    color: white;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+/* h2 modification*/
+h2 {
     background-color: #DE3C4B;
     color: white;
 
