@@ -3,6 +3,8 @@ body{
     background-color: #DE3C4B;
   
     padding: 2.5px;
+
+    display: flex;
 }
 
 /* a modification */
@@ -18,9 +20,8 @@ a, a:hover, a:active, a:visited {
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
-
+    
     padding: 5px;
-
 }
 
 /* bluediv class*/
@@ -42,7 +43,7 @@ a, a:hover, a:active, a:visited {
 h1 {
     background-color: #DE3C4B;
     color: white;
-
+    
     border-style: solid;
     border-color: black;
     border-width: 5px;
